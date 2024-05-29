@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+</head>
+
+<body>
+    <h2>Rellena tu Cv</h2>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="prov">Provincia</label> <br>
+        <select id="prov" name="prov">
+            <option value="" selected="selected">- selecciona -</option>
+            <option value="buenos_aires">Buenos Aires</option>
+            <option value="catamarca">Catamarca</option>
+            <option value="chaco">Chaco</option>
+            <option value="chubut">Chubut</option>
+            <option value="cordoba">Córdoba</option>
+            <option value="corrientes">Corrientes</option>
+            <option value="entre_rios">Entre Ríos</option>
+            <option value="formosa">Formosa</option>
+            <option value="jujuy">Jujuy</option>
+            <option value="la_pampa">La Pampa</option>
+            <option value="la_rioja">La Rioja</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="misiones">Misiones</option>
+            <option value="neuquen">Neuquén</option>
+            <option value="rio_negro">Río Negro</option>
+            <option value="salta">Salta</option>
+            <option value="san_juan">San Juan</option>
+            <option value="san_luis">San Luis</option>
+            <option value="santa_cruz">Santa Cruz</option>
+            <option value="santa_fe">Santa Fe</option>
+            <option value="santiago_del_estero">Santiago del Estero</option>
+            <option value="tierra_del_fuego">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+            <option value="tucuman">Tucumán</option>
+        </select><br><br>
+        <label for="diaNacimiento">Fecha de Nacimiento</label><br>
+        <input type="number" id="diaNacimiento" name="diaNacimiento" min="1" max="31" maxlength="2">
+        <label for="mesNacimiento">de</label>
+        <select id="mesNacimiento" name="mesNacimiento">
+            <option value="enero">Enero</option>
+            <option value="febrero">Febrero</option>
+            <option value="marzo">Marzo</option>
+            <option value="abril">Abril</option>
+            <option value="mayo">Mayo</option>
+            <option value="junio">Junio</option>
+            <option value="julio">Julio</option>
+            <option value="agosto">Agosto</option>
+            <option value="septiembre">Septiembre</option>
+            <option value="octubre">Octubre</option>
+            <option value="noviembre">Noviembre</option>
+            <option value="diciembre">Diciembre</option>
+        </select>
+        <label for="añoNacimiento">de</label> 
+        <input type="number" id="añoNacimiento" name="añoNacimiento" min="1924" max="2024" maxlength="4">
+        <br><br>
+        <label for="temasInteres">Tema de interés</label><br>
+        <select id="temasInteres" name="temasInteres" multiple>
+            <option value="adminBD">Administración de bases de datos</option>
+            <option value="analisisProgramacion">Análisis y programación</option>
+            <option value="arquitectura">Arquitectura</option>
+            <option value="calidad">Calidad</option>
+            <option value="ERPCRMBusinessIntelligence">ERP, CRM, Business Intelligence</option>
+    </fieldset>
+</body>
+
+</html>
